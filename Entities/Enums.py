@@ -17,8 +17,8 @@ class Value(enum.IntEnum):
     King = 13
 
 
-class Suit(enum.Enum):
+class Suit(enum.IntEnum):
     Hearts = 0,
-    Diamonds = 1,
-    Spades = 2,
-    Clubs = 3
+    Diamonds = 20,
+    Spades = 40,
+    Clubs = 80

@@ -191,7 +191,7 @@ class AiHand(Hand):
         # clear()
         print(
             "Dealer's Hand:\n"
-            f"{str(self)}\n"
+            f"{str(self)}\n\n"
             "Your Hand:")
 
         for player_hand in player_set:
